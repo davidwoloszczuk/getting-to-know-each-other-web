@@ -1,10 +1,111 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>ME</title>
-</head>
-<body>
-  <h1>This is a Heading</h1>
-  <p>This is a paragraph.</p>
-</body>
+<html lang="en-US">
+    <head>
+        
+        <link rel="stylesheet" href="gettingtoknoweachother.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style>h1 {text-align: center;}</style>
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #424242;
+            }
+            
+            li {
+              float: left;
+            }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            li a:hover {
+              background-color: black;
+            }
+            </style>
+            <style> 
+                textarea {
+                  width: 100%;
+                  height: 150px;
+                  padding: 12px 20px;
+                  box-sizing: border-box;
+                  border: 2px solid #ccc;
+                  border-radius: 4px;
+                  background-color: #9c9191;
+                  font-size: 16px;
+                  resize: none;
+                }
+                </style>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style>
+                img {
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                }
+                </style>
+                
+                <body style="background-color:rgb(188, 225, 232);"></head>
+                </body>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+              
+              <h1 id="changeColor" class="color-change">David Woloszczuk-Mrugala</h1>
+            
+                <p> My email is <a href="davidwoloszczukmru@lewisu.edu">davidwoloszczukmru@lewisu.edu</a></p>
+                <p> Discord Username: idek_man_</p>
+            <img src="sprint-2/IMG_8619 2.JPG" alt="David Woloszczuk-Mrugala at Graduation" width="300" height="300">
+            <h2>Introduction </h2>
+                <p>Hello my name is David Woloszczuk-Mrugala. I am 18 years old. I am a freshman at Lewis University.
+                 I run track for Lewis. I can not run at the moment because I tore my acl last year and I am 9 weeks 
+                after surgery now. I also love snowboarding and spending my time with friends and family. I am a 
+                Computer Science major with a minor in Computer Engineering.</p>
+            <h3>What I Hope to Learn in this Course</h3>
+            <ul>
+                <li>Better understanding of the languages</li>
+                <li>How to use Python, Html, and CSS better</li>
+                <li>How to code better!</li>
+              </ul>
+            <h4> My Favorite Hobby / Activity</h4>
+                <p>My favorite hobbies at the moment are working out and snowboarding (hopefully I can this year.) I love being outsideI find it very relaxing 
+                and there is always something to do.</p>
+            <h5>Fun Fact</h5>
+                <p>I have gone skydiving and loved it</p>
+            <h6>Greatest Innovations</h6>
+                <i class="material-icons" style="font-size:10px;">square</i>   <span>One of the best innovations I think is <a href="https://www.coolmathgames.com/">
+                coolmathgames</a></span>  <span>its a game that has helped so many bored kids in class.</span>
+                <p> </p><i class="material-icons" style="font-size:10px;">square</i>    <span>The second best innovation in my opinion is </span> <a href=
+                "https://www.google.com/chrome/">Google Chrome</a> <span>google revolutionized the search engine game. It is hard to imagine daily life without 
+                google.</span>
+                <p> </p> <i class="material-icons" style="font-size:10px;">square</i> <span>Last but certainly not least one of the best inventions to have ever 
+                been made was</span> <a href="https://www.techbusinessnews.com.au/blog/impact-of-the-internet-on-modern-society/">Internet</a> <span>its impact 
+                on the world is astronomiccal</span>
+            <h7>Comment Box</h7>
+                <p><strong>Suggestions:</strong> Please leave some suggestions on how to make my site better!</p>
+                <form>
+                    <textarea>Text...</textarea>
+                </form>
+
+                <script>
+                    // JavaScript to handle the color change
+                    document.getElementById('changeColor').addEventListener('click', function() {
+                        // Generate a random color
+                        var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+                        
+                        // Apply the new color to the element
+                        this.style.color = randomColor;
+                    });
+                </script>
+    </body>
 </html>
